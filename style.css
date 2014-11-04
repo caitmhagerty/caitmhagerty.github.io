@@ -2,7 +2,7 @@ body {
     background-color: lightblue;
 }
 h1 {
-    color: #2d89ca;
+    color: #ffffff;
     margin-left: 20px;
     font-family: "Helvetica", Monospace, serif;
     font-size: 40px;
@@ -17,7 +17,5 @@ h2 {
 }
 p {
     font-size: 14px;
-}
-p {
-    font-family: "Courier New", Monospace, serif;
+    font-family: "Helvetica", sans-serif;
 } 
