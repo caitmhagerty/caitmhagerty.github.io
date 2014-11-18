@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+	
+	
+}
+.top{ background-image:url(body.jpg); 
+        text-align:center; 
+		background-repeat:inherit;
+		background-color:#ffffff;
+        height: 400px; 
+		background-position:center top;
+		vertical-align:text-top middle;
+}
+
+.header{
+	text-align:right;
+	
+}
+
+.home{ margin-left:150px;
+       margin-right:2px;
+}
+
+.blog{ margin-left:2px;
+       margin-right:2px;
+}
+
+.locate{ margin-left:2px;
+       margin-right:2px;
+}
+
+.about{ margin-left:2px;
+         margin-right:2px;
+}
+
+.contact{ margin-left:2px;
+            margin-right:2px;			
+}
+
+.simple{
+        text-align:center; 
+        padding: 100px;
+		background-repeat:inherit;
+		background-color:#B9CC10;
+}
+
+
+
+footer{
+    background-color:#ffffff;
+    color:black;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align:center;
+} 
+
