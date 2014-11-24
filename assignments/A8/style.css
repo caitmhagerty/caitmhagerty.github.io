@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    
+} 
+
+.section {
+    height: 510px;
+    width: 510px;
+    padding: 80px #ededed;
+    border: 50px solid #ededed;
+    margin: 60px;
+    background-color: #ededed;
+}
+
+p {
+    font-size: 12px;
+}
+
+.indent {
+    margin: 5cm;
+}
