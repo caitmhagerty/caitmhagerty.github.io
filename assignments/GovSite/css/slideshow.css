@@ -1,0 +1,73 @@
+
+
+/* Set container properties and size */
+.container{
+  margin: 50px auto;
+  width: 940px;
+  height: 420px;
+  position: relative;
+}
+
+#slides {
+  display: none; /*Prevent the slideshow from flashing on load */
+}
+
+#slides img {width: 940px;}
+
+/* Pagination to indicate current slide */
+ul.slidesjs-pagination {
+  list-style: none;
+  position: absolute;
+  bottom: -23px;
+  left: 50%;
+  margin: 0 0 0 -26px;
+  padding: 0;
+  z-index: 10;
+}
+
+li.slidesjs-pagination-item {
+  float: left;
+}
+
+li.slidesjs-pagination-item a {
+  display: block;
+  background-image: url('../images/slideshow/pagination.png');
+  height: 12px;
+  width: 12px;
+  text-indent: -9999%; /* moves text off of screen */
+}
+
+li.slidesjs-pagination-item a.active {
+  background-position: 0 12px;
+}
+
+li.slidesjs-pagination-item a:hover {
+  background-position: 0 26px;
+}
+
+
+
+/* Previous and next buttons */
+a.slidesjs-navigation {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -21px;
+  z-index: 10;
+  width: 35px;
+  height: 52px;
+  opacity: 1;
+}
+
+a.slidesjs-navigation:hover {
+  opacity: 1;
+}
+
+a.slidesjs-previous {
+  background-image: url('../images/slideshow/arrow-prev.png');
+  left: -35px;
+}
+a.slidesjs-next {
+  background-image: url('../images/slideshow/arrow-next.png');
+  right: -35px;
+}

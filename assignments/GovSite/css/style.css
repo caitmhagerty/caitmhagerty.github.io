@@ -1,0 +1,348 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.page {
+	width: 1200px;
+	margin: 0px auto;
+	background-color: white;
+	
+}
+
+.header {
+	
+	width: 100%;
+	background: url("../images/header.png") no-repeat;
+	height: 420px;
+}
+
+.topbar {
+	
+	width: 100%;
+	height: 90px;
+	
+}
+
+.topnav {
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding-top: 40px;
+	padding-left: 30px;
+	
+}
+
+
+.search {
+	width: 30%;
+	height: 100%;
+	float: right;
+	padding-top: 40px;
+	
+}
+
+.body {
+	width: 100%;
+	float: left;
+	
+}
+
+.hub1 {
+	width: 100%;
+	margin: 0px 0;
+}
+
+.hub1header {
+	width: 100%;
+	max-height: 100px;
+	overflow: hidden;
+	
+}
+
+.hub1title {
+	float: left;
+	margin-right: 10px;
+}
+
+.hub1title h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.hub1line {
+	color: black;
+	margin-top: 50px;
+	
+}
+
+.hub2 {
+	width: 100%;
+	height: 390px;
+	float: left;
+	
+}
+
+.buttonwrap {
+	width: 860px;
+	height: 186px;
+	margin: 102px auto;
+	
+}
+
+.buttonwrap a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	
+}
+
+.footer {
+	height: 200px;
+	width: 100%;
+	float: left;
+	
+}
+
+.footerlinks {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 300px;
+	padding-bottom: 50px;
+	text-align: center;
+	
+}
+
+.footerlinks a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	
+}
+
+.topnav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	
+}
+
+.clear {clear: both;}
+
+.woodbutton {
+	width: 175px;
+	height: 175px;
+	float: left;
+	background-image: url("../images/wood.png");
+	background-repeat: no-repeat;
+	line-height: 160px;
+	margin: 0 20px;
+	text-align: center;
+}
+
+.woodbutton a {text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+}
+
+.pagebackground {
+	width: 100%;
+	margin-top: 0px;
+	float: left;
+}
+
+.content {
+	width: 800px;
+	margin: 60px auto 30px auto;
+	background-color: white;
+}
+
+.contentblog {
+	width: 940px;
+	margin: 60px auto 30px auto;
+	background-color: white;
+}
+
+.content h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+iframe {
+	width: 800px;
+	margin: 0px auto;
+}
+
+.locatesearch {
+	width: 800px;
+	margin-top: 40px;
+	margin-left: 200px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.locatesearch inputs{
+	float: left;
+}
+
+.articles {
+	
+	width: 940px;
+	float: left;
+	
+}
+
+.article-container {
+	
+	width: 470px;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	
+}
+
+.article-container h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	
+}
+
+.article-container p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	margin-top: 0px;
+}
+
+.article-container:nth-child(even) img{
+	float: right;
+	margin-bottom: 5px;
+}
+
+.article-container:nth-child(even) .article-preview {
+	float: right;
+}
+
+.article-preview {
+	width: 435px;
+}
+
+.article-content {
+	width: 700px;
+	float: left;
+	margin-right: 140px;
+	font-family: 'Raleway', sans-serif;
+	font-size: .95em; 
+	
+}
+
+.side-articles {
+	width: 30%;
+	float: left;
+	margin-top: 40px;
+	}
+	
+.side-articles img {
+	width: 300px;
+}
+
+.articletitle h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.articleheader {
+	width: 100%;
+	max-height: 100px;
+	overflow: hidden;
+}
+.articletitle {
+	float: left;
+	margin-right: 10px;
+}
+
+.articleline{
+	color: black;
+	margin-top: 50px;
+}
+
+.article-content img.feat {
+	width: 700px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.featured-image {
+	width: 100%;
+	float: left;
+	
+}
+
+.side-container h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	margin: 1px 0 30px 0;
+}
+
+.side-container p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: .8em;
+	margin-top: 0px;
+}
+
+.searchbutton {
+	background-image: url("../images/searchbutton.png");
+	width: 100px;
+	height: 100px;
+	float: right;
+	line-height: 95px;
+	text-align: center;
+}
+
+.searchbutton a {
+	display: block;
+	width: 100px;
+	height: 100px;	
+	text-decoration: none;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	}
+
+.content p {
+		font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	
+}
+
+.content h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	
+}
+
+.preview-title {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+.preview-exerpt a {
+	text-decoration: none;
+	color: green;
+	font-size: .8em;
+}
